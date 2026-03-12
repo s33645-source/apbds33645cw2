@@ -12,5 +12,10 @@ Console.WriteLine("Commit3");
 Console.WriteLine("cat: ฅ^•ﻌ•^ฅ");
 static double CalculateAverage(int[] values)
 {
-    return 0;
+    double a = 0;
+    for (int i = 0; i < values.Length; i++)
+    {
+        a+=values[i];
+    }
+    return a / values.Length;
 }
