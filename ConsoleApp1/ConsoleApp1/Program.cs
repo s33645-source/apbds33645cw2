@@ -30,3 +30,6 @@ for (int i = 1; i < values.Length; i++)
 }
 return max;
 }
+static int CalculateMin(int[] values){
+
+}
