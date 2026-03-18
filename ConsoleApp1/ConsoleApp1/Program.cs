@@ -31,7 +31,7 @@ for (int i = 1; i < values.Length; i++)
 return max;
 }
 
-static int CalculateNotMin(int[] values)
+static int CalculateNotMin(int value)
 {
-    return 1;
+    return 1/value;
 }
