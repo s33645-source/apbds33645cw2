@@ -33,5 +33,5 @@ return max;
 
 static int CalculateNotMin(int value)
 {
-    return 1/value;
+    return value * -1;
 }
